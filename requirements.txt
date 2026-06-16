@@ -1,0 +1,3 @@
+fastmcp>=0.1.0
+fastmcp-credentials>=0.1.1
+monday-api-python-sdk>=1.6.7
