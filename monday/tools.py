@@ -382,7 +382,7 @@ def fetch_items_by_id(ids: List[int | str] = Field(..., description="list of ids
     name="monday_health_check",
     description="Check server readiness and basic connectivity.",
 )
-def google_search_console_health_check() -> str:
+def health_check() -> str:
     """Health check endpoint."""
     return json.dumps(
         {
